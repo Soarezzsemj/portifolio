@@ -1,11 +1,62 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  color: #ECEFEE;
+}
+
+.terminal {
+  height: 100%;
+  width: 100%;
   background-color: #050908;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.terminal-header {
+  background-color: #1b825e;
+  height: 50px;
+  display: flex;
   align-items: center;
+  padding: 0 10px;
+}
+
+.terminal-header .button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.terminal-header .close {
+  background-color: #ff5f56;
+}
+.terminal-header .minimize {
+  background-color: #ffbd2e;
+}
+.terminal-header .maximize {
+  background-color: #27c93f;
+}
+
+.terminal-body {
+  flex: 1;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.terminal-body code {
+  white-space: pre-line;
+  font-size: 20px;
+  line-height: 1.8;
 }
