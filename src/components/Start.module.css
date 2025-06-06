@@ -1,0 +1,26 @@
+.icons{
+    align-self: flex-start;
+    display: flex;
+    gap: 10px;
+    align-items: space-between;
+}
+
+.principal{
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Centraliza horizontalmente o conteúdo principal */
+  padding: 20px;
+  box-sizing: border-box;
+  /* text-align: center; /* Remover text-align do principal se quisermos justificar o grupo de texto */
+}
+
+.tech{
+     display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Centraliza horizontalmente o conteúdo principal */
+ 
+  box-sizing: border-box;
+  /* text-align: center; /* Remover text-align do principal se quisermos justificar o grupo de texto */
+}

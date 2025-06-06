@@ -1,5 +1,6 @@
 import './App.css';
 import Start from './components/Start';
+import About from './components/About';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       </div>
       <div className="terminal-body">
         <Start/>
+
+      
       </div>
     </div>
   );
