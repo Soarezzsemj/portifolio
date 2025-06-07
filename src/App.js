@@ -4,6 +4,7 @@ import About from './components/About';
 
 function App() {
   return (
+    <div className="principal">
     <div className="terminal">
       <div className="terminal-header">
         <div className="button close"></div>
@@ -11,10 +12,16 @@ function App() {
         <div className="button maximize"></div>
       </div>
       <div className="terminal-body">
+      <section>  
+        <section className="bloco">
         <Start/>
-
-      
+        </section>
+        <section className="sobre">
+          <About/>
+        </section>
+      </section>
       </div>
+    </div>
     </div>
   );
 }

@@ -61,3 +61,12 @@ body, html, #root {
   line-height: 1.8;
 }
 
+.bloco{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
