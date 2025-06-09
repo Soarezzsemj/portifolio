@@ -50,23 +50,48 @@ body, html, #root {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   padding: 20px;
-  text-align: center;
+  
 }
 
-.terminal-body code {
-  white-space: pre-line;
-  font-size: 20px;
-  line-height: 1.8;
-}
-
-.bloco{
+.bloco {
   display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
+  height: 100vh; 
+  align-items: center; 
+  justify-content: center; 
   width: 100%;
   flex-wrap: nowrap;
   flex-direction: column;
+  
+  position: relative; 
+}
+
+
+.bloco::after { 
+  content: '';
+  position: absolute;
+  bottom: 50px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent; /* Tamanho da seta P LADO ESQUERDO */
+  border-right: 15px solid transparent; /* Tamanho da seta P LADO DIREITO*/
+  border-top: 90px solid #ECEFEE; /* Cor e direção da seta */
+  animation: bounce 1s infinite alternate; /* animação  */
+}
+
+@keyframes bounce {
+  from {
+    transform: translateX(-50%) translateY(0);
+  }
+  to {
+    transform: translateX(-50%) translateY(10px); /*seta para baixo */
+  }
+}
+
+
+.sobre{
+ margin-top: 60vh;
 }

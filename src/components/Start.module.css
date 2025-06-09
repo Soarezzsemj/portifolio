@@ -1,26 +1,30 @@
-.icons{
-    align-self: flex-start;
-    display: flex;
-    gap: 10px;
-    align-items: space-between;
+.principal {
+  text-align: center; /* Garante que o texto e ícones estejam centralizados */
+  /* Remove qualquer padding-bottom grande que possa estar empurrando os ícones para cima */
+  padding-bottom: 0; /* Ou um valor pequeno, se quiser um espaçamento extra */
 }
 
-.principal{
-     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /* Centraliza horizontalmente o conteúdo principal */
-  padding: 20px;
-  box-sizing: border-box;
-  /* text-align: center; /* Remover text-align do principal se quisermos justificar o grupo de texto */
+.principal h1 {
+  font-size: 3em; /* Ajuste se necessário */
+  margin-bottom: 10px; /* Espaço entre h1 e h2 */
 }
 
-.tech{
-     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /* Centraliza horizontalmente o conteúdo principal */
- 
-  box-sizing: border-box;
-  /* text-align: center; /* Remover text-align do principal se quisermos justificar o grupo de texto */
+.principal h2 {
+  font-size: 1.5em; /* Ajuste se necessário */
+  line-height: 1.5;
+  margin-bottom: 20px; /* Espaço entre o texto e os ícones */
+  display: inline-block; /* Ajuda a quebra de linha com "tech enthusiast" */
+}
+
+.tech {
+  display: inline; /* Mantém "tech enthusiast" na mesma linha */
+}
+
+.icons {
+  margin-top: 20px; /* Espaço acima dos ícones */
+}
+
+.icons a {
+  margin: 0 10px; /* Espaço entre os ícones */
+  display: inline-block;
 }

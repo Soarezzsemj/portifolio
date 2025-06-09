@@ -12,7 +12,9 @@ function App() {
         <div className="button maximize"></div>
       </div>
       <div className="terminal-body">
-      <section>  
+      <div className="container"> 
+      <section>
+
         <section className="bloco">
         <Start/>
         </section>
@@ -20,6 +22,7 @@ function App() {
           <About/>
         </section>
       </section>
+      </div>
       </div>
     </div>
     </div>
