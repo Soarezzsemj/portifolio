@@ -1,6 +1,7 @@
 import './App.css';
 import Start from './components/Start';
 import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
         </section>
         <section className="sobre">
           <About/>
+        </section>
+
+        <section className="skills">
+          <Skills/>  
         </section>
       </section>
       </div>
