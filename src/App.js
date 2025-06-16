@@ -2,6 +2,7 @@ import './App.css';
 import Start from './components/Start';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
 
         <section className="skills">
           <Skills/>  
+        </section>
+
+        <section className="projects">
+          <Projects/>
         </section>
       </section>
       </div>
