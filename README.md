@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# 🧑‍💻 Carlos Eduardo | Desenvolvedor de Software 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo(a) ao meu GitHub! Sou **Carlos Eduardo**, e este espaço é dedicado ao código e aos projetos que estou desenvolvendo.
 
-## Available Scripts
+Minha paixão é a **construção de soluções de software robustas e eficientes**. Minha stack principal de estudo e trabalho é focada em **Desenvolvimento Backend** com a plataforma **C# e .NET**, mas também possuo experiência com outras tecnologias.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🔗 Portfólio de Projetos (Visite!)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para uma visão detalhada dos meus projetos, habilidades técnicas e informações de contato, acesse meu portfólio online:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### [✨ soarezzsemj.github.io/portifolio/ ✨](https://soarezzsemj.github.io/portifolio/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Habilidades e Tecnologias Focais
 
-### `npm run build`
+Meu desenvolvimento profissional está concentrado nas seguintes áreas e ferramentas, buscando sempre as melhores práticas do mercado:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Categoria | Tecnologias / Habilidades | Foco |
+| :--- | :--- | :--- |
+| **Linguagem Principal** | `C#` | Alto |
+| **Plataforma** | `.NET` | Alto |
+| **Banco de Dados** | `SQL`, `NoSQL (MongoDB)`, `Entity Framework` | Alto |
+| **Desenvolvimento Web**| `APIs RESTful`, `HTTP` | Alto |
+| **DevOps & Ferramentas** | `Git`, `GitHub`, `Docker` | Essencial |
+| **Metodologia** | `Programação Orientada a Objetos (POO)`, `Lógica` | Essencial |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📫 Vamos Conectar!
 
-### `npm run eject`
+Estou em busca de oportunidades e aberto a novas conexões e colaborações.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **GitHub:** [soarezzsemj](https://github.com/soarezzsemj)
+* **Portfólio:** [soarezzsemj.github.io/portifolio/](https://soarezzsemj.github.io/portifolio/)
