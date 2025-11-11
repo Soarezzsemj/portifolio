@@ -2,7 +2,7 @@
 
 Bem-vindo(a) ao meu GitHub! Sou **Carlos Eduardo**, e este espaço é dedicado ao código e aos projetos que estou desenvolvendo.
 
-Minha paixão é a **construção de soluções de software robustas e eficientes**. Minha stack principal de estudo e trabalho é focada em **Desenvolvimento Backend** com a plataforma **C# e .NET**, mas também possuo experiência com outras tecnologias.
+Minha paixão é a **construção de soluções de software robustas e eficientes**. Minha stack principal de estudo e trabalho é focada em **Desenvolvimento Backend e Full-Stack** com a plataforma **C# e .NET**, mas também possuo experiência com Tecnologias Full-Stack.
 
 ---
 
@@ -20,13 +20,13 @@ Meu desenvolvimento profissional está concentrado nas seguintes áreas e ferram
 
 | Categoria | Tecnologias / Habilidades | Foco |
 | :--- | :--- | :--- |
-| **Linguagem Principal** | `C#` | Alto |
-| **Plataforma** | `.NET` | Alto |
-| **Banco de Dados** | `SQL`, `NoSQL (MongoDB)`, `Entity Framework` | Alto |
-| **Desenvolvimento Web**| `APIs RESTful`, `HTTP` | Alto |
+| **Linguagem Principal** | `C#`, `SwiftUI`, `HTML`, `CSS`, `Javascript`| Alto |
+| **Frameworks** | `.NET`, `React.js` | Alto |
+| **Banco de Dados** | `IBM Cloudant (Não relacional)`, `PostgreSQL (em aprendizado)` | Alto |
+| **Desenvolvimento Web**| `APIs RESTful`, `HTTP` | Essencial |
 | **DevOps & Ferramentas** | `Git`, `GitHub`, `Docker` | Essencial |
 | **Metodologia** | `Programação Orientada a Objetos (POO)`, `Lógica` | Essencial |
-
+| **Metodologias Ágeis** | `Scrum`, `Kamban` | Essencial |
 ---
 
 ## 📫 Vamos Conectar!
