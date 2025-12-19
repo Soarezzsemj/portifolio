@@ -47,17 +47,13 @@ body, html, #root {
 }
 
 .terminal-body {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+  display: block; /* deixa o fluxo normal da página */
   padding: 20px;
-  
 }
 
 .bloco {
   display: flex;
-  height: 100vh; 
+  min-height: 100vh; 
   align-items: center; 
   justify-content: center; 
   width: 100%;
@@ -92,10 +88,7 @@ body, html, #root {
 }
 
 
-.sobre{
- margin-top: 60vh;
-}
-
-.projects{
- margin-top: 60vh;
+.sobre,
+.projects {
+  padding: 120px 0;
 }

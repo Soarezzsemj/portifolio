@@ -1,32 +1,94 @@
-.about{
-    
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    align-items: center;
-    text-align: center;
-  
+/* =========================
+   BASE (DESKTOP)
+========================= */
 
-    
+.about {
+  padding: 80px 20px;
+  text-align: center;
 }
 
-h1 {
-    font-weight: bold;
-    padding: 40px;
-    font-size: 35px;
+.about h1 {
+  font-size: 36px;
+  font-weight: bold;
 }
 
-p {
-    margin: 10px 0;
-    line-height: 1.6;
-    font-size: 30px;
+.about h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #8b5cf6;
+  margin: 12px auto 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  opacity: 0.85;
+  margin-bottom: 50px;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.text {
+  max-width: 500px;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 16px;
 }
 
 .profileImage {
-    width: 350px;
-    border-radius: 100px;
-    
-    margin-bottom: 50vh;
-    margin-top: 10vh;
-    
+  width: 280px;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
+
+/* =========================
+   MOBILE (TABLET / CELULAR)
+========================= */
+
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 16px;
+  }
+
+  .about h1 {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  .text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .profileImage {
+    width: 220px;
+    border-radius: 20px;
+  }
+}
+
+
