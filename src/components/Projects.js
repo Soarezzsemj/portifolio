@@ -6,6 +6,10 @@ import cel2 from '../Assets/MinhaCripto/cel2.png';
 import cel3 from '../Assets/MinhaCripto/cel3.png';
 import cel4 from '../Assets/MinhaCripto/cel4.png';
 
+import Resume1 from '../Assets/ResumeAi/Resume1.png';
+import Resume2 from '../Assets/ResumeAi/Resume2.png';
+import Resume3 from '../Assets/ResumeAi/Resume3.png';
+
 const projectsData = [
   {
     id: 'cripto',
@@ -49,7 +53,7 @@ permitindo a geração rápida de resumos claros e objetivos.
     ],
     repo: 'https://github.com/Soarezzsemj/Resumo-IA',
     final: 'https://resumo-ia.vercel.app/',
-    screenshots: []
+    screenshots: [Resume1, Resume2, Resume3]
   }
 ];
 
